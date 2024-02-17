@@ -1,0 +1,27 @@
+{
+  "name": "cooshine-cli",
+  "version": "1.0.2",
+  "description": "从零打造一个Cli工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cooshine": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aojiaodemeng/cooshine-cli"
+  },
+  "author": "傲娇的萌",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^4.0.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^12.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.14"
+  }
+}
